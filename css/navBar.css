@@ -1,0 +1,53 @@
+ nav {
+      position: fixed;
+      top: 0;
+      left: 0; 
+      width: 100%;
+      height: 100px;
+      background-color: rgba(13, 42, 122, 0.8);
+    }
+    nav a img {
+      /* The tower icon is positioned to the top left corner */
+      position: absolute;
+      top: 12px;
+      left: 15px;
+      padding: 3px auto;
+    }
+    .parisFranceTitle {
+      text-align: center;
+      width: 200px;
+      height: 25px;
+      float: left;
+      margin-left: 140px;
+      margin-top: 50px;
+      color: white;
+    }
+    
+    ul.nav-bar {
+      list-style-type: none;
+      float: right;
+      margin: 40px 50px;
+      top: 85px;
+      right: 40px;
+    }
+    
+    ul li {
+      display: inline;
+      margin-right: 30px;
+    }
+    ul li a {
+      text-decoration: none;
+      background-color: white;
+      padding: 10px 40px;
+      border: 2px solid black;
+      border-radius: 50px;
+      color: rgb(0, 0, 0);
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+    ul li a:hover{
+      font-size: 25px;
+      font-weight: bold;
+      margin-right:auto;
+      transition: 0.3s;
+    }

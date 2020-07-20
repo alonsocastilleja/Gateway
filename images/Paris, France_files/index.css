@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+.backgroundImage {
+  background: url(https://images.unsplash.com/photo-1555347582-6406c4c5c2ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+  background-size: cover;
+  /* position: sticky;
+  z-index: 1; */
+  height: 1000px;
+  width: 100%;
+  padding:300px 0;
+}
+
+nav {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-color: rgba(13, 42, 122, 0.8);
+}
+nav a img {
+  /* The tower icon is positioned to the top left corner */
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  padding: 3px auto;
+}
+.parisFranceTitle {
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  float: left;
+  margin-left: 140px;
+  margin-top: 50px;
+  color: white;
+}
+
+ul.nav-bar {
+  list-style-type: none;
+  float: right;
+  margin: 40px 50px;
+  top: 75px;
+  right: 40px;
+}
+
+ul li {
+  display: inline;
+  margin-right: 30px;
+}
+ul li a {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 40px;
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+section {
+  font-family: Avenir Next LT W01 Bold, sans-serif;
+  font-size: 1.75rem;
+  line-height: 1;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 0 7px #000;
+  text-align: center;
+  /* z-index: 4; */
+  /* position: absolute; */
+  margin:0 auto;
+  height: 200px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 10px 40px;
+  border: 2px solid black;
+  border: 3px solid black;
+}
+section p {
+  margin-top: 15px;
+}
+.learnMorebutton {
+  height: 25px;
+  width: 40%;
+  margin-top: 15px;
+  text-align: center;
+}
+.learnMorebutton a h2 {
+  padding: 10px auto;
+  text-decoration: none;
+  text-align: center;
+  /* background-color:rgb(135,206, 235); */
+  color: black;
+  font-size: 25px;
+}
+
+.placesExplore {
+  margin: 100px 100px;
+}
+
+footer {
+  position: static;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: rgb(223, 48, 48);
+  height: 150px;
+  width: 100%;
+}
+
+footer h3 {
+  height: 40px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-size: 20px;
+  position: relative;
+  top: 15px;
+  left: auto;
+}
+
+footer a img {
+  margin-right: 15px;
+}
+
+.socialMediaIcons {
+  height: 50px;
+  height: 50px;
+  margin-right: 10px;
+  text-align: center;
+}
